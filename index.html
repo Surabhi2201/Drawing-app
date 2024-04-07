@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+      <div class="heading">
+        <h1>TOOLS</h1>
+      </div>
+        <div class="tools">
+         
+            
+            <div class="stroke option" >
+              Stroke
+              <input type="color" id="stroke" name="STROKE">
+            </div>
+            <div class="background-color option" >
+              Canvas Color
+              <input type="color" id="canvasColor" name="canvasColor">
+            </div>
+            <div class="Line option">
+              Line Width
+            <input type="number" name="line-width" id="lineWidth" >
+            </div>
+            <button id="saveBtn">Save</button>
+              
+            <button id="clear">Clear</button>
+            
+          
+        </div>
+        <div class="drawing-area">
+          <canvas id="drawingBoard"></canvas>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

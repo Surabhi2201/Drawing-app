@@ -1,0 +1,152 @@
+body{
+     background-color: rgb(23, 43, 70);
+     background-repeat: no-repeat;
+     display:flex;
+     height:100%;
+     width:100%;
+     color:bisque;
+     font-family:cursive;
+}
+.app{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow:0 2px 10px #C07F00,
+               0 2px 10px #C07F00 inset;
+}
+#saveBtn{
+    height:30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border:none;
+    border-radius: 6px;
+    width:50px;
+    background-color: #9BCF53;
+    box-shadow: 0 0 10px #BFEA7C,
+                0 0 10px #BFEA7C inset;
+}
+.tools{
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    
+    
+}
+h1{
+    box-shadow: 0 0 20px #4E9F3D,
+    0 0 20px #1E5128;
+    border-right: none;
+    border-radius: 6px;
+    width:200px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.heading{
+    height:100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.background-color{
+    box-shadow: 0px 5px 20px #D0A2F7,
+                0 0 20px #E5D4FF;
+    display: flex;
+
+    
+    align-items: center;
+    
+}
+.Line{
+    box-shadow: 0 0 20px #0E8388,
+                0 0 20px #0E8388  ;
+}
+.stroke{
+    box-shadow:0 0px 10px #6AD4DD,
+               0 0 20px  #97E7E1 ;
+    width:50px;
+   
+    border-radius: 6px;
+   
+
+}
+#lineWidth{
+    height:20px;
+    width:40px;
+    margin-top: 10px;
+    border: none;
+}
+
+.option{
+    font-weight: 700;
+    height:80px;
+    width:200px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.clear{
+    position:absolute;
+   
+}
+
+#clear{
+ outline:none;
+ font-size: 15px;
+ position: relative;
+ background-color: transparent;
+ border:none;
+ background-color:rgb(241, 203, 13) ;
+ border-radius: 6px;
+ box-shadow:0 0 20px rgb(231, 113, 17),
+            0 0 10px rgb(201, 111, 22) inset;
+            height: 30px;
+            width:50px;
+            margin-right: 10px;
+            margin-top: 20px;
+}
+
+#clear:hover{
+    border-radius: 6px;
+    box-shadow:0 0 20px rgb(231, 17, 17),
+               0 0 10px rgb(225, 22, 22) inset;
+    color:white;
+    border:2px solid red;
+    transition:all 0.2s ease-in-out;
+    background-color: rgb(3, 22, 48);
+    cursor: pointer;         
+}
+#saveBtn:hover{
+    border-radius: 6px;
+    box-shadow:0 0 20px rgb(35, 231, 17),
+               0 0 10px rgb(17, 198, 14) inset;
+    color:white;
+    border:2px solid rgb(19, 186, 25);
+    transition:all 0.2s ease-in-out;
+    background-color: rgb(21, 47, 84);
+    cursor: pointer;         
+}
+
+
+
+
+
+
+
+
+
+
+
+canvas{
+    border:none;
+   width: 100%;
+   box-shadow: 0 0 10px #E5E483,
+               0 0 20px #E5E483;
+   margin-top: 10px;
+   background-color:oldlace;
+}
